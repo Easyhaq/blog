@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    padding: 5px;
+}
+.Media{
+    border: 1px solid black;
+    height: 30px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.TopPicture{
+    height: 300px;
+    margin-top: -30px;
+    background-image: url("photo-1437915015400-137312b61975-700x529.jpg");
+}
+.IP{
+    width: 50%;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 25%;
+}
+hr{
+    width: 100px;
+    margin-left: 46%; 
+}
+.empty{
+    height: 100px;
+}
+.Life{
+    text-align: center;
+    color: red;
+}
+.BLOG{
+    text-align: center;
+    font-size: 50px;
+}
+.Lefttoppic{
+    height: 300px;
+    margin-bottom: 5px;
+    background-image: url("22-960x640.jpg");
+}
+.text{
+    border: 1px solid black;
+    height: 100px;
+}
+.Grand{
+    text-align: center;
+    font-size: 20px;
+}
+.Style{
+    text-align: center;
+}
+.container{
+    height: 1000px;
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}
+.left{
+    flex: 9;
+    padding: 5px;
+}
+.right{
+    flex: 3;
+    background-color: rgb(233, 210, 210);
+    padding: 5px;
+}
+.leftpic{
+    height: 675px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+}
+.leftchild01{
+    height: 220px;
+    width: 590px;
+    background-image: url("24-700x529.jpg");
+}
+.leftchild02{
+    height: 220px;
+    width: 590px;
+    background-image: url("photo-1418065460487-3e41a6c84dc5-700x529.jpg");
+}
+.leftchild03{
+    height: 220px;
+    width: 590px;
+    background-image: url("4-300x200.jpg");
+}
+.leftchild04{
+    height: 220px;
+    width: 590px;
+    background-image: url("8-700x529.jpg");
+}
+.leftchild05{
+    height: 220px;
+    width: 590px;
+    background-image: url("4-700x529.jpg");
+}
+.leftchild06{
+    height: 220px;
+    width: 590px;
+    background-image: url("picjumbocom_hnck4081-700x529.jpg");
+}
+.footer{
+    height: 90px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+.Toptile{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.rightpic{
+    margin-top: 5px;
+    height: 300px;
+    background-image: url("aboutme.jpg");
+}
+.SUBSCRIBE{
+    height: 30px;
+    width: 200px;
+}
+.rightpicture{
+    margin-top: 5px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+.rightpicturechild01{
+    border: 1px solid black;
+    height: 100px;
+    width: 160px;
+    background-image: url("insta1.jpg");
+}
+.rightpicturechild02{
+    height: 100px;
+    width: 160px;
+    background-image: url("insta2.jpg");
+}
+.rightpicturechild03{
+    height: 100px;
+    width: 160px;
+    background-image: url("insta3.jpg");
+}
+.rightpicturechild04{
+    height: 100px;
+    width: 160px;
+    background-image: url("insta4.jpg");
+}
+.rightpicturechild05{
+    height: 100px;
+    width: 160px;
+    background-image: url("insta5.jpg");
+}
+.rightpicturechild06{
+    height: 100px;
+    width: 160px;
+    background-image: url("insta6.jpg");
+}
+.rightpicturechild07{
+    height: 100px;
+    width: 160px;
+    background-image: url("insta7.jpg");
+}
+.rightpicturechild08{
+    height: 100px;
+    width: 160px;
+    background-image: url("insta8.jpg");
+}
+.rightpicturechild09{
+    height: 100px;
+    width: 160px;
+    background-image: url("insta9.jpg");
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        height: 3000px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        gap: 5px;
+    }
+    
+}
